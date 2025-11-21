@@ -5,5 +5,4 @@ Control a robot, dodge obstacles, react quickly, and push your reflexes to set a
 
 windows_demo_youtube_link    https://youtu.be/OP7-2eh3tz8
 android_demo_youtube_link    https://youtube.com/shorts/B5T_7qLO1hs?feature=share
-github_link                  https://github.com/Manyasri09/RoboRunner
 itch.io_link                 https://manya1610.itch.io/roborunner

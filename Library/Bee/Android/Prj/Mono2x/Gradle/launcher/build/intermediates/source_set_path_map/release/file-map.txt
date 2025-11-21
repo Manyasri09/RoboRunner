@@ -1,0 +1,9 @@
+com.manya.RoboRunner.launcher-pngs-0 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.manya.RoboRunner.launcher-resValues-1 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.manya.RoboRunner.launcher-rs-2 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.manya.RoboRunner.launcher-mergeReleaseResources-3 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.manya.RoboRunner.launcher-mergeReleaseResources-4 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.manya.RoboRunner.launcher-merged_res-5 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.manya.RoboRunner.launcher-main-6 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.manya.RoboRunner.launcher-release-7 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.manya.RoboRunner.launcher-packaged_res-8 D:\RoboRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release

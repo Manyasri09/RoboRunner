@@ -1,0 +1,44 @@
+# ============== Unity Generated Folders ======================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# ============== Unity Asset Store ============================
+Assets/AssetStoreTools*
+
+# ============== IDE & System Files ===========================
+# VS / Rider / Mono
+ExportedObj/
+.consulo/
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Crash Reports
+sysinfo.txt
+
+# ============== Android / Xcode ==============================
+*.apk
+*.aab
+*.keystore
+
+# ============== TextMeshPro ==================================
+Assets/TextMesh Pro/*
+!Assets/TextMesh Pro/Fonts
+
+# ============== Addressables & Cache =========================
+/Library/com.unity.addressables

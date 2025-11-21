@@ -24,19 +24,18 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("<color=cyan>[GameManager]</color> Stopping all systems...");
 
-        // Stop camera
+        
         if (cameraController != null)
             cameraController.enabled = false;
 
-        // Stop background scroll
+        
         if (background != null)
             background.enabled = false;
 
-        // Stop collectible spawner
+        
         if (collectibleSpawner != null)
             collectibleSpawner.enabled = false;
 
-        // Stop obstacle spawner
         if (obstacleSpawner != null)
             obstacleSpawner.enabled = false;
     }

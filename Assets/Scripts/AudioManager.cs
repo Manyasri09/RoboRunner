@@ -4,7 +4,7 @@ using System.Collections;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    public AudioSource musicSource; // assign your background music AudioSource
+    public AudioSource musicSource; 
 
     void Awake()
     {
@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Smoothly fade music volume down
+    
     public void DimMusic(float targetVolume = 0.25f, float duration = 1.5f)
     {
         if (musicSource == null) return;
@@ -38,14 +38,14 @@ public class AudioManager : MonoBehaviour
             yield return null;
         }
 
-        musicSource.volume = targetVolume; // stays dimmed
+        musicSource.volume = targetVolume; 
     }
 
-    // 🔊 Play sound effects (like death sound)
+  
     public void PlaySFX(AudioClip clip, float volume = 1f)
     {
         if (clip == null) return;
-        // plays sound near the camera so it's always heard
+        
         AudioSource.PlayClipAtPoint(clip, Camera.main.transform.position, volume);
     }
 }

@@ -7,10 +7,10 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance;
 
     [Header("UI References")]
-    public TextMeshProUGUI scoreText;        // top-left live score
-    public TextMeshProUGUI gameOverScoreText; // shown on GameOver panel
-    public TextMeshProUGUI highScoreText;     // shown on GameOver panel
-    public GameObject gameOverPanel;          // your GameOver UI panel
+    public TextMeshProUGUI scoreText;        
+    public TextMeshProUGUI gameOverScoreText; 
+    public TextMeshProUGUI highScoreText;     
+    public GameObject gameOverPanel;          
 
     private int score = 0;
     private int highScore = 0;
@@ -18,13 +18,13 @@ public class ScoreManager : MonoBehaviour
 
     void Awake()
     {
-        // Singleton pattern
+        
         if (Instance == null)
             Instance = this;
         else
             Destroy(gameObject);
 
-        // Load the high score from PlayerPrefs
+        
         highScore = PlayerPrefs.GetInt("HighScore", 0);
     }
 
@@ -53,7 +53,7 @@ public class ScoreManager : MonoBehaviour
     {
         isGameOver = true;
 
-        // Update high score if needed
+        
         if (score > highScore)
         {
             highScore = score;
@@ -61,7 +61,6 @@ public class ScoreManager : MonoBehaviour
             PlayerPrefs.Save();
         }
 
-        // Show Game Over UI
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
@@ -73,7 +72,7 @@ public class ScoreManager : MonoBehaviour
                 highScoreText.text = "High Score: " + highScore.ToString();
         }
 
-        // Pause game time (optional)
+     
         Time.timeScale = 0f;
     }
 
